@@ -9,7 +9,7 @@ Uma função anônima é útil principalmente nos casos em que precisamos de uma
     
 <h8>https://pythonhelp.wordpress.com/tag/lambda/<h8>
 
-<h3>No código:**<h3>
+<h3>No código:<h3>
 
 <h4>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h4>
 
