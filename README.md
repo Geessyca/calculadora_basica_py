@@ -13,7 +13,8 @@ Uma função anônima é útil principalmente nos casos em que precisamos de uma
 
 <h4>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h4>
 
-``` soma = lambda a,b: a + b
+```
+soma = lambda a,b: a + b
 sub = lambda a,b : a - b
 mult = lambda a,b: a * b
 div = lambda a,b: a / b 
