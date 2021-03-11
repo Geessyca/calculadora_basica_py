@@ -11,16 +11,21 @@ Uma função anônima é útil principalmente nos casos em que precisamos de uma
 
 <h3>No código:**<h3>
 
-<h5>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h5>
+<h4>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h4>
 
-'''
-soma = lambda a,b: a + b
+``` soma = lambda a,b: a + b
 sub = lambda a,b : a - b
 mult = lambda a,b: a * b
-div = lambda a,b: a / b
-'''
+div = lambda a,b: a / b 
+```
 
-'''
+<h4>
+Após realizarmos a declaração das funções, deveremos execultar o código em si. 
+
+Ultizamos o <i><b>input<b><i> para o usuario escolher tanto os algarismos que ele quer realizar a operação, quando o tipo de operação que ele deseja:
+<h4>
+
+```
 print("BEM VINDO A CALCULADORA PYTHON\n\n***** Digite dois números ******\n\n")
 a = int(input("Numero 1: "))
 b = int(input("Numero 2: "))
@@ -42,4 +47,4 @@ elif op == 4:
 
 else:
     print("***** OPERAÇÃO INVALIDA *****")
-'''
+```
