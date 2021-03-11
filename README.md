@@ -1,7 +1,7 @@
 # CALCULADORA BÁSICA
-<h4> Usando função lambda <h4>
+<h6> Usando função lambda <h6>
 
-<h2>**Lambda**<h2>
+<h3>Lambda<h3>
 
 <h4>As funções anônimas — em Python também chamadas de expressões lambda — representam um recurso bem interessante da linguagem Python, mas cuja utilidade pode não ser muito óbvia à primeira vista.
 
@@ -9,9 +9,9 @@ Uma função anônima é útil principalmente nos casos em que precisamos de uma
     
 <h8>https://pythonhelp.wordpress.com/tag/lambda/<h8>
 
-<h2>**No código:**<h2>
+<h3>No código:**<h3>
 
-<h4>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h4>
+<h5>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h5>
 
 '''
 soma = lambda a,b: a + b
