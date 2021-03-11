@@ -1,5 +1,5 @@
-# CALCULADORA BÁSICA
-<h6> Usando função lambda <h6>
+# CALCULADORA BÁSICA EM PYTHON
+<h6>Gessyca Moreira<h6>
 
 <h3>Lambda<h3>
 
@@ -28,8 +28,8 @@ Ultizamos o <i><b>input<b><i> para o usuario escolher tanto os algarismos que el
 
 ```
 print("BEM VINDO A CALCULADORA PYTHON\n\n***** Digite dois números ******\n\n")
-a = int(input("Numero 1: "))
-b = int(input("Numero 2: "))
+a = int(float("Numero 1: "))
+b = int(float("Numero 2: "))
 
 print("\nEscolha uma operação: \n** 1 - SOMA\n** 2 - SUBTRAÇÃO\n** 3 - MULTIPLICAÇÃO\n** 4 - DIVISÃO\n\n")
 op = int(input("Operação: "))
