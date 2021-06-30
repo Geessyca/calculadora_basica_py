@@ -1,4 +1,14 @@
-🎓<h2>CALCULADORA BÁSICA EM PYTHON</h2>
+<h1 align="center">
+  🎓<br>Calculadora básica em Python
+</h1>
+
+<h4 align="center">
+  O intuito deste repositório é compartilhar a construção uma calculadora construida em Python.
+</h4>
+
+<h2 align="left">
+  Passo a passo ↷ 
+</h2>
 
 <h3>Lambda<h3>
 
@@ -10,7 +20,7 @@ Uma função anônima é útil principalmente nos casos em que precisamos de uma
 
 <h3>No código:<h3>
 
-<h4>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div <i>, onde cada uma faz uma das operações basicas.<h4>
+<h4>No nosso código ultilizaremos 4 funções lambda, com os respectivos nomes, <i> soma, sub, mult, div </i>, onde cada uma faz uma das operações basicas.<h4>
 
 ```
 soma = lambda a,b: a + b
@@ -22,7 +32,7 @@ div = lambda a,b: a / b
 <h4>
 Após realizarmos a declaração das funções, deveremos execultar o código em si. 
 
-Ultizamos o <i><b>input<b><i> para o usuario escolher tanto os algarismos que ele quer realizar a operação, quando o tipo de operação que ele deseja:
+Ultizamos o <i><b>input</b></i> para o usuario escolher tanto os algarismos que ele quer realizar a operação, quando o tipo de operação que ele deseja:
 <h4>
 
 ```
@@ -81,3 +91,18 @@ def menu():
 ```
 menu()
 ```
+
+
+##  👩🏻‍💻 Autora<br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/geessyca">
+        <img src="https://avatars.githubusercontent.com/u/72661229?v=4" width="100px;" alt="Icon GitHub"/><br>
+        <sub>
+          <b>Gessyca Moreira</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
