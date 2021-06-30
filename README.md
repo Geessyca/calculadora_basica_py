@@ -1,5 +1,4 @@
-# CALCULADORA BÁSICA EM PYTHON
-<h6>Gessyca Moreira<h6>
+🎓<h2>CALCULADORA BÁSICA EM PYTHON</h2>
 
 <h3>Lambda<h3>
 
