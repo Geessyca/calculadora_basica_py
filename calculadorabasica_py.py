@@ -4,47 +4,45 @@
 # In[ ]:
 
 
-soma = lambda a,b: a + b
-sub = lambda a,b : a - b
-mult = lambda a,b: a * b
-div = lambda a,b: a / b
+functionSum = lambda firstNumber,secondNumber: firstNumber + secondNumber
+functionSubtraction = lambda firstNumber,secondNumber : firstNumber - secondNumber
+functionMultiplication = lambda firstNumber,secondNumber: firstNumber * secondNumber
+functionDivision = lambda firstNumber,secondNumber: firstNumber / secondNumber
 
 def cal():
     print("BEM VINDO A CALCULADORA PYTHON\n\n***** Digite dois números ******\n\n")
-    a = float(input("Numero 1: "))
-    b = float(input("Numero 2: "))
+    firstNumber = float(input("Numero 1: "))
+    secondNumber = float(input("Numero 2: "))
 
     print("\nEscolha uma operação: \n** 1 - SOMA\n** 2 - SUBTRAÇÃO\n** 3 - MULTIPLICAÇÃO\n** 4 - DIVISÃO\n\n")
-    op = int(input("Operação: "))
+    optionSelect = int(input("Operação: "))
 
-    if op == 1:
-        print(soma(a,b))
+    if optionSelect == 1:
+        print(functionSum(firstNumber,secondNumber))
 
-    elif op == 2:
-        print(sub(a,b))
+    elif optionSelect == 2:
+        print(functionSubtraction(firstNumber,secondNumber))
 
-    elif op == 3:
-        print(mult(a,b))
+    elif optionSelect == 3:
+        print(functionMultiplication(firstNumber,secondNumber))
 
-    elif op == 4:
-        print(div(a,b))
+    elif optionSelect == 4:
+        print(div(firstNumber,secondNumber))
 
     else:
         print("***** OPERAÇÃO INVALIDA *****")
 
     print("\nRETORNAREMOS AO MENU....\n")
-    menu()
+    main()
 
-def menu():
+def main():
     print("Escolha uma opção:\n\n1 - ABRIR CALCULADORA\n\n0 - SAIR DO PROGRAMA")
-    op = int(input("\n"))
-    if op == 1:
+    optionSelect = int(input("\n"))
+    if optionSelect == 1:
         cal()
-    elif op == 0:
+    elif optionSelect == 0:
         quit()
     else:
         print("OPÇÃO INVALIDA, RETORNATEMOS AO MENU...")
-        menu()
-menu()
-        
-
+        main()
+main()
